@@ -4,6 +4,9 @@ import java.util.*;
 import org.junit.Test;
 import Jama.*;
 import java.lang.Math;
+/*
+ * MyTests was provided to test my algorithms for AnagramChecker and Concentric
+ */
 
 
 public class MyTests<T> {
