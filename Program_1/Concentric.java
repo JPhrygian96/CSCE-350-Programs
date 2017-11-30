@@ -47,12 +47,12 @@ public class Concentric {
 	}
 	
 
-	/*
-	 * The code below is mine, the code above was provided for use to help create the algorithm 
-	 */
 	//Points are 2x1 matrices ( column vectors)
 	//we're using JAMA ( http://math.nist.gov/javanumerics/jama/doc/ )... read the Matrix doc
 	public static boolean areConcentric(List<Matrix> pts, double epsilon) {
+		/*
+	         * The code below is mine, the code above was provided for use to help create the algorithm 
+	         */
 		boolean pointsAreGood = false;
 		if(pts.size() <= 3) {
 			return true;
