@@ -4,6 +4,7 @@ import java.lang.Math;
 /*
  * Jordan Leach
  * 1/26/2017
+ * Class to test if circlces are concentric (meaning they share the same center)
  */
 
 public class Concentric {
@@ -21,7 +22,6 @@ public class Concentric {
 		
 		return origin.plus(ptRot);
 	}
-	
 	
 	//finds the 2D intersection of two lines (l0,l1), each defined by two points on the line
 	//https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection
@@ -47,7 +47,9 @@ public class Concentric {
 	}
 	
 
-	
+	/*
+	 * The code below is mine, the code above was provided for use to help create the algorithm 
+	 */
 	//Points are 2x1 matrices ( column vectors)
 	//we're using JAMA ( http://math.nist.gov/javanumerics/jama/doc/ )... read the Matrix doc
 	public static boolean areConcentric(List<Matrix> pts, double epsilon) {
