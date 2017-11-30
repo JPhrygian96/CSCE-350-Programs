@@ -4,14 +4,22 @@
  */
 public class AnagramChecker {
 
+	/*
+	 * char2int was provided
+	 */
 	private static int char2int(char c){
 		return (int)c-(int)'a';
 	}
 
+	
+	
 	//assume input strings are LOWER CASE
 	//fine to add any additional helper functions (do in this file)
 	//your solution must run in O(n+m) time (50% of points)
 	public static boolean areAnagrams(String a, String b){
+		/*
+	         * The code below is mine 
+	         */
 		String word1 = a.replaceAll("\\s", "");
 		String word2 = b.replaceAll("\\s", "");
 		
