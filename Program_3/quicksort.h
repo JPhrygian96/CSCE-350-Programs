@@ -1,6 +1,7 @@
 /* Jordan Leach
  * March 27, 2017
  * CSCE 350
+ * Implementation of Hoare Parititioning and Quicksort
  */
 #ifndef QUICKSORT_H
 #define QUICKSORT_H
