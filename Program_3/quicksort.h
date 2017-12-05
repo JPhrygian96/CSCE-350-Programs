@@ -32,7 +32,7 @@ int medianOf3(T A[], int l, int r){
 
 }
 /* medianOf3 was provided for the assignment
- * Everything below this comment was written by me
+ * The code in the two methods below were written by me 
  */
 //remember: l and r are INLCUSIVE (just like Lomuto)
 template<typename T>
