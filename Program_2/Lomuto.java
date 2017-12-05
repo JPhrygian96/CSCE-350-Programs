@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Lomuto {
 	/*
 	 * Jordan Leach
+	 * Implementation of Lomuto partitioning
 	 */
 
 	public static int partition(int[] A, int low, int high){
