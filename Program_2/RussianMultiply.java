@@ -3,6 +3,7 @@ import java.lang.Math;
 public class RussianMultiply {
 	/*
 	 * Jordan Leach
+	 * Implementation of Russian Multiplication
 	 */
 
 public static int multiply(int a, int b){
