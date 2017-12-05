@@ -31,7 +31,9 @@ int medianOf3(T A[], int l, int r){
 	return m-A; //m-A is the number of elements from A[0]
 
 }
-
+/* medianOf3 was provided for the assignment
+ * Everything below this comment was written by me
+ */
 //remember: l and r are INLCUSIVE (just like Lomuto)
 template<typename T>
 int hoarePartition(T A[], int l, int r){
